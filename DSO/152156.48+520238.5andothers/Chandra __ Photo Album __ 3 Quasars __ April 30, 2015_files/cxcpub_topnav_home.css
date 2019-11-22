@@ -1,0 +1,473 @@
+/* ----------- Begin Bottom Nav ---------- */
+
+#bottom_rollovers {
+display: inline;
+	/*list-style: none;*/
+	margin: 0px;
+	padding: 0px;	
+	width: 796px;
+	/*display: block;*/
+	/*background-repeat: repeat-x;
+	background-position: 0% 100%;*/
+	clear:both;
+	height: 19px;
+	/*background-image: url("/graphics/chronicle/bottom_fade.gif");
+	background-repeat: repeat-x;
+	background-position: 0% 100%;*/
+}
+
+#bottom_nav {
+width: 100%;
+	height:20px;
+	padding-bottom: 3px;
+	margin: 0px;
+	clear: both;
+	position:relative;
+	border-top-color: #aebfd7;
+	border-top-style:solid;
+	border-top-width: 1px;
+	border-bottom-style:solid;
+	border-bottom-color:#aebfd7;
+	border-bottom-width:1px;
+	/*display: block;	*/
+
+}
+
+#bnav_list {
+	display: inline;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+}
+
+#bnav_list li {
+	float: left;
+	height: auto;
+}
+
+#bnav_about_chandra a, #bnav_about_chandra a:visited {
+	display: block;
+	width: 117px;  
+	height: 20px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Bank Gothic";*/
+	color:#fff;
+	border-right-style:solid;
+	border-right-color: #aebfd7;
+	border-right-width: 1px;
+	background-color:#273870;
+	text-decoration:none;
+	padding-top:3px;
+	/*padding-left:3px;*/
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px 0px;
+}
+#bnav_about_chandra_current a, #bnav_about_chandra_current a:visited {
+	display: block;
+	width: 117px;
+	height: 20px;
+	font-size: 13px;
+	background-color:#eaeff5;
+	color: #003466;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px -21px;
+}
+#bnav_about_chandra a:hover {
+	background-position: 0px -21px;
+	background-color:#eaeff5;
+	color: #003466;
+}
+
+#bnav_about_chandra a:active {
+	background-position: 0px -21px;
+}
+
+#bnav_education a, #bnav_education a:visited {
+	display: block;
+	width: 88px;  
+	height: 20px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Bank Gothic";*/
+	color:#fff;
+	border-right-style:solid;
+	border-right-color: #aebfd7;
+	border-right-width: 1px;
+	background-color:#273870;
+	text-decoration:none;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px 0px;
+}
+#bnav_education_current a, #bnav_education_current a:visited {
+	display: block;
+	width: 88px; 
+	font-size: 13px;
+	height: 20px;
+	background-color:#eaeff5;
+	color: #003466;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/education.gif");*/
+	background-position: 0px -21px;
+}
+
+#bnav_education a:hover {
+	background-position: 0px -21px;
+	background-color:#eaeff5;
+	color: #003466;
+}
+
+#bnav_education a:active {
+	background-position: 0px -21px;
+}
+
+#bnav_field_guide a, #bnav_field_guide a:visited {
+	display: block;
+	width: 96px;  
+	height: 20px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Bank Gothic";*/
+	color:#fff;
+	border-right-style:solid;
+	border-right-color: #aebfd7;
+	border-right-width: 1px;
+	background-color:#273870;
+	text-decoration:none;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px 0px;
+}
+#bnav_field_guide_current a, #bnav_field_guide_current a:visited {
+	display: block;
+	width: 96px; 
+	height: 20px;
+	font-size: 13px;
+	background-color:#eaeff5;
+	color: #003466;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/field_guide.gif");*/
+	background-position: 0px -21px;
+}
+#bnav_field_guide a:hover {
+	background-position: 0px -21px;
+	background-color:#eaeff5;
+	color: #003466;
+}
+
+#bnav_field_guide a:active {
+	background-position: 0px -21px;
+}
+
+#bnav_photo_album a, #bnav_photo_album a:visited {
+	display: block;
+	width: 105px;  
+	height: 20px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Bank Gothic";*/
+	color:#fff;
+	border-right-style:solid;
+	border-right-color: #aebfd7;
+	border-right-width: 1px;
+	background-color:#273870;
+	text-decoration:none;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px 0px;
+}
+#bnav_photo_album_current a, #bnav_photo_album_current a:visited {
+	display: block;
+	width: 105px; 
+	height: 20px;
+	font-size: 13px;
+	background-color:#eaeff5;
+	color: #003466;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/photo_album.gif");*/
+	background-position: 0px -21px;
+}
+#bnav_photo_album a:hover {
+	background-position: 0px -21px;
+	background-color:#eaeff5;
+	color: #003466;
+}
+
+#bnav_photo_album a:active {
+	background-position: 0px -21px;
+}
+
+#bnav_press_room a, #bnav_press_room a:visited {
+	display: block;
+	width: 102px;  
+	height: 20px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Bank Gothic";*/
+	color:#fff;
+	border-right-style:solid;
+	border-right-color: #aebfd7;
+	border-right-width: 1px;
+	background-color:#273870;
+	text-decoration:none;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px 0px;
+}
+#bnav_press_room_current a, #bnav_press_room_current a:visited {
+	display: block;
+	width: 102px;   
+	height: 20px;
+	font-size: 13px;
+	background-color:#eaeff5;
+	color: #003466;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/press_room.gif");*/
+	background-position: 0px -21px;
+}
+#bnav_press_room a:hover {
+	background-position: 0px -21px;
+	background-color:#eaeff5;
+	color: #003466;
+}
+
+#bnav_press_room a:active {
+	background-position: 0px -21px;
+}
+
+#bnav_resources a, #bnav_resources a:visited {
+	display: block;
+	width: 92px;  
+	height: 20px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Bank Gothic";*/
+	color:#fff;
+	border-right-style:solid;
+	border-right-color: #aebfd7;
+	border-right-width: 1px;
+	background-color:#273870;
+	text-decoration:none;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px 0px;
+}
+#bnav_resources_current a, #bnav_resources_current a:visited {
+	display: block;
+	width: 92px;  
+	height: 20px;
+	font-size: 13px;
+	background-color:#eaeff5;
+	color: #003466;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/resources.gif");*/
+	background-position: 0px -21px;
+}
+#bnav_resources a:hover {
+	background-position: 0px -21px;
+	background-color:#eaeff5;
+	color: #003466;
+}
+
+#bnav_resources a:active {
+	background-position: 0px -21px;
+}
+#bnav_multimedia a, #bnav_multimedia a:visited {
+	display: block;
+	width: 93px;  
+	height: 20px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Bank Gothic";*/
+	color:#fff;
+	border-right-style:solid;
+	border-right-color: #aebfd7;
+	border-right-width: 1px;
+	background-color:#273870;
+	text-decoration:none;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px 0px;
+}
+#bnav_multimedia_current a, #bnav_multimedia_current a:visited {
+	display: block;
+	width: 93px;
+	height: 20px;
+	font-size: 13px;
+	background-color:#eaeff5;
+	color: #003466;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/multimedia.gif");*/
+	background-position: 0px -21px;
+}
+#bnav_multimedia a:hover {
+	background-position: 0px -21px;
+	background-color:#eaeff5;
+	color: #003466;
+}
+
+#bnav_multimedia a:active {
+	background-position: 0px -21px;
+}
+
+
+#bnav_podcasts a, #bnav_podcasts a:visited {
+	display: block;
+	width: 85px;  
+	height: 20px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Bank Gothic";*/
+	color:#fff;
+	border-right-style:solid;
+	border-right-color: #aebfd7;
+	border-right-width: 1px;
+	background-color:#273870;
+	text-decoration:none;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px 0px;
+}
+#bnav_podcasts_current a, #bnav_podcasts_current a:visited {
+	display: block;
+	width: 85px;
+	height: 20px;
+	font-size: 13px;
+	background-color:#eaeff5;
+	color: #003466;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/multimedia.gif");*/
+	background-position: 0px -21px;
+}
+
+#bnav_podcasts a:hover {
+	background-position: 0px -21px;
+	background-color:#eaeff5;
+	color: #003466;
+}
+
+#bnav_podcasts a:active {
+	background-position: 0px -21px;
+}
+
+#bnav_blog a, #bnav_blog a:visited {
+	display: block;
+	width: 56px;  
+	height: 20px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Bank Gothic";*/
+	color:#fff;
+	border-right-style:solid;
+	border-right-color: #aebfd7;
+	border-right-width: 1px;
+	background-color:#273870;
+	text-decoration:none;
+	padding-top:3px;
+	padding-right:3px;
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px 0px;
+}
+#bnav_blog_current a, #bnav_blog_current a:visited {
+	display: block;
+	width: 56px; 
+	height: 20px;
+	font-size: 13px;
+	background-color:#eaeff5;
+	color: #003466;
+	padding-top:3px;
+	padding-right:2px;
+	/*background-image: url("/graphics/ws/rollovers/podcasts.gif");*/
+	background-position: 0px -21px;
+}
+#bnav_blog a:hover {
+	background-position: 0px -21px;
+	background-color:#eaeff5;
+	color: #003466;
+}
+
+#bnav_blog a:active {
+	background-position: 0px -21px;
+}
+#bnav_home a, #bnav_home a:visited {
+	display: block;
+	width: 65px;  
+	height: 20px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Bank Gothic";*/
+	color:#fff;
+	border-right-style:solid;
+	border-right-color: #aebfd7;
+	border-right-width: 1px;
+	background-color:#273870;
+	text-decoration:none;
+	padding-top:3px;
+	padding-right:3px;
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px 0px;
+}
+#bnav_home_current a, #bnav_home_current a:visited {
+	display: block;
+	width: 65px; 
+	height: 20px;
+	background-color:#eaeff5;
+	color: #003466;
+	padding-top:3px;
+	padding-right:3px;
+	font-size: 13px;
+	/*background-image: url("/graphics/ws/rollovers/podcasts.gif");*/
+	background-position: 0px -21px;
+}
+#bnav_home a:hover {
+	background-position: 0px -21px;
+	background-color:#eaeff5;
+	color: #003466;
+}
+
+#bnav_home a:active {
+	background-position: 0px -21px;
+}
+#bnav_list li a span {
+	display: none;
+}
+
+#bnav_research a, #bnav_research a:visited {
+	display: block;
+	width: 86px;  
+	height: 20px;
+	font-size: 13px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Bank Gothic";*/
+	color:#fff;
+	
+	background-color:#273870;
+	text-decoration:none;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/about_chandra.gif");*/
+	background-position: 0px 0px;
+}
+#bnav_research_current a, #bnav_research_current a:visited {
+	display: block;
+	width: 86px;
+	height: 20px;
+	font-size: 13px;
+	background-color:#eaeff5;
+	color: #003466;
+	padding-top:3px;
+	/*background-image: url("/graphics/ws/rollovers/multimedia.gif");*/
+	background-position: 0px -21px;
+}
+
+#bnav_research a:hover {
+	background-position: 0px -21px;
+	background-color:#eaeff5;
+	color: #003466;
+}
+
+#bnav_research a:active {
+	background-position: 0px -21px;
+}

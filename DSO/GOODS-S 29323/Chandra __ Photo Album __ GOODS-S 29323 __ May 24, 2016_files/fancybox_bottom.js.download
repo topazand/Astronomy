@@ -1,0 +1,52 @@
+/*!
+ * fancyBox - bottom
+ */
+
+$(".togglebox").hide();
+$("h2").eq(1).addClass("active");
+$(".togglebox").eq(1).show();
+
+$("h2").click(function(){
+ $(this).toggleClass("active");
+$(this).next(".togglebox").slideToggle("slow");
+});
+
+
+
+	$("a.tabs").click(function () {
+      $("a.tabs").removeClass("active");
+      $(this).toggleClass("active", "slow");
+    });
+	
+
+$("#video-link").fancybox({
+		'width'				: 655,
+		'height'			: 710,
+		'overlayShow'		: false,
+        'autoScale'     	: false,
+        'transitionIn'		: 'none',
+		'transitionOut'		: 'none',
+		'scrolling'			: 'no',
+		'type'				: 'iframe'
+			});
+			
+$(".various").fancybox({
+		maxWidth	: 720,
+		maxHeight	: 496,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+});
+
+
+$('.second-carousel').jcarousel();
+
+$('#first-carousel').jcarousel({
+        vertical: true,
+		 scroll: 2
+    });
+		

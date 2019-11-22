@@ -1,0 +1,413 @@
+// JavaScript Document
+
+    //function to display or hide a given element
+
+function showHideItems(myItem, myButton){
+
+    //this is the ID of the hidden item
+
+   var myItem = document.getElementById(myItem);
+
+    //this is the ID of the plus/minus button image
+
+    var myButton = document.getElementById(myButton);
+
+        if (myItem.style.display != 'none') {
+
+            //items are currently displayed, so hide them
+
+            myItem.style.display = 'none';
+
+            swapImage(myButton,'plus');
+
+        }
+
+        else {
+
+            //items are currently hidden, so display them
+
+            myItem.style.display = 'block';
+
+            swapImage(myButton,'minus');
+
+       }
+
+    }
+
+
+
+
+
+    //function to swap an image based on its current state
+
+function swapImage(myImage, state) {
+
+        if (state == 'minus') {
+
+          myImage.src = "/graphics/ws/minus.jpg";
+
+        }
+
+        else {
+
+            myImage.src = "/graphics/ws/plus.jpg";
+
+    }
+
+	}
+
+	
+
+	// JavaScript Document
+
+    //function to display or hide a given element- Black Background
+
+function showHideItems_blk(myItem, myButton){
+
+    //this is the ID of the hidden item
+
+   var myItem = document.getElementById(myItem);
+
+    //this is the ID of the plus/minus button image
+
+    var myButton = document.getElementById(myButton);
+
+        if (myItem.style.display != 'none') {
+
+            //items are currently displayed, so hide them
+
+            myItem.style.display = 'none';
+
+            swapImage_blk(myButton,'plus');
+
+        }
+
+        else {
+
+            //items are currently hidden, so display them
+
+            myItem.style.display = 'block';
+
+            swapImage_blk(myButton,'minus');
+
+       }
+
+    }
+
+
+
+ //function to swap an image based on its current state- Black Background used in top ten page
+
+function swapImage_blk(myImage, state) {
+
+        if (state == 'minus') {
+
+          myImage.src = "/graphics/ws/reduce_blk.jpg";
+
+        }
+
+        else {
+
+            myImage.src = "/graphics/ws/more_blk.jpg";
+
+    }
+
+	}
+
+ //for showing answers and closing
+
+ 
+
+ function showHideAnswers(myItem, myButton){
+
+    //this is the ID of the hidden item
+
+   var myItem = document.getElementById(myItem);
+
+    //this is the ID of the plus/minus button image
+
+    var myButton = document.getElementById(myButton);
+
+        if (myItem.style.display != 'none') {
+
+            //items are currently displayed, so hide them
+
+            myItem.style.display = 'none';
+
+            swapImageAnswers(myButton,'answer');
+
+        }
+
+        else {
+
+            //items are currently hidden, so display them
+
+            myItem.style.display = 'block';
+
+            swapImageAnswers(myButton,'close');
+
+       }
+
+    }
+
+
+
+
+
+    //function to swap an image based on its current state
+
+function swapImageAnswers(myImage, state) {
+
+        if (state == 'close') {
+
+          myImage.src = "/graphics/ws/close.jpg";
+
+        }
+
+        else {
+
+            myImage.src = "/graphics/ws/answer.jpg";
+
+    }
+
+	}
+
+	
+
+	//show hide plus/minus
+
+	 function showHide_sm(myItem, myButton){
+
+    //this is the ID of the hidden item
+
+   var myItem = document.getElementById(myItem);
+
+    //this is the ID of the plus/minus button image
+
+    var myButton = document.getElementById(myButton);
+
+        if (myItem.style.display != 'none') {
+
+            //items are currently displayed, so hide them
+
+            myItem.style.display = 'none';
+
+            swapImage_sm(myButton,'plus_sign');
+
+        }
+
+        else {
+
+            //items are currently hidden, so display them
+
+            myItem.style.display = 'block';
+
+            swapImage_sm(myButton,'minus_sign');
+
+       }
+
+    }
+
+
+
+
+
+    //function to swap an image based on its current state
+
+function swapImage_sm(myImage, state) {
+
+        if (state == 'minus_sign') {
+
+          myImage.src = "/graphics/ws/minus_blue.jpg";
+
+        }
+
+        else {
+
+            myImage.src = "/graphics/ws/plus_blue.jpg";
+
+    }
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	//show hide plus/minus
+
+	 function showHide_wave(myItem, myButton){
+
+    //this is the ID of the hidden item
+
+   var myItem = document.getElementById(myItem);
+
+    //this is the ID of the plus/minus button image
+
+    var myButton = document.getElementById(myButton);
+
+        if (myItem.style.display != 'none') {
+
+            //items are currently displayed, so hide them
+
+            myItem.style.display = 'none';
+
+            swapImage_wave(myButton,'open_sign');
+
+        }
+
+        else {
+
+            //items are currently hidden, so display them
+
+            myItem.style.display = 'block';
+
+            swapImage_wave(myButton,'close_sign');
+
+       }
+
+    }
+
+
+
+
+
+    //function to swap an image based on its current state
+
+function swapImage_wave(myImage, state) {
+
+        if (state == 'close_sign') {
+
+          myImage.src = "/graphics/ws/minus_multiwave_close.jpg";
+
+        }
+
+        else {
+
+            myImage.src = "/graphics/ws/plus_multiwave_open.jpg";
+
+    }
+
+	}
+	
+	
+	//show hide plus/minus
+
+	 function showHide_black(myItem, myButton){
+
+    //this is the ID of the hidden item
+
+   var myItem = document.getElementById(myItem);
+
+    //this is the ID of the plus/minus button image
+
+    var myButton = document.getElementById(myButton);
+
+        if (myItem.style.display != 'none') {
+
+            //items are currently displayed, so hide them
+
+            myItem.style.display = 'none';
+
+            swapImage_black(myButton,'open_sign');
+
+        }
+
+        else {
+
+            //items are currently hidden, so display them
+
+            myItem.style.display = 'block';
+
+            swapImage_black(myButton,'close_sign');
+
+       }
+
+    }
+
+
+
+
+
+    //function to swap an image based on its current state
+
+function swapImage_black(myImage, state) {
+
+        if (state == 'close_sign') {
+
+          myImage.src = "/graphics/ws/minus_black.jpg";
+
+        }
+
+        else {
+
+            myImage.src = "/graphics/ws/plus_black.jpg";
+
+    }
+
+	}
+	
+	
+	
+		//show hide plus/minus New About index
+	 function showHide_about(myItem, myButton){
+    //this is the ID of the hidden item
+   var myItem = document.getElementById(myItem);
+    //this is the ID of the plus/minus button image
+    var myButton = document.getElementById(myButton);
+        if (myItem.style.display != 'none') {
+            //items are currently displayed, so hide them
+            myItem.style.display = 'none';
+            swapImage_about(myButton,'open_sign');
+        }
+        else {
+            //items are currently hidden, so display them
+            myItem.style.display = 'block';
+            swapImage_about(myButton,'close_sign');
+       }
+    }
+
+
+    //function to swap an image based on its current state
+function swapImage_about(myImage, state) {
+        if (state == 'close_sign') {
+          myImage.src = "/graphics/top/wsn/minus_blue.jpg";
+        }
+        else {
+            myImage.src = "/graphics/top/wsn/plus_blue.jpg";
+    }
+
+	}
+	
+	
+	//show hide plus/minus New About index-Gray column
+	 function showHide_aboutgray(myItem, myButton){
+    //this is the ID of the hidden item
+   var myItem = document.getElementById(myItem);
+    //this is the ID of the plus/minus button image
+    var myButton = document.getElementById(myButton);
+        if (myItem.style.display != 'none') {
+            //items are currently displayed, so hide them
+            myItem.style.display = 'none';
+            swapImage_aboutgray(myButton,'open_sign');
+        }
+        else {
+            //items are currently hidden, so display them
+            myItem.style.display = 'block';
+            swapImage_aboutgray(myButton,'close_sign');
+       }
+    }
+
+
+    //function to swap an image based on its current state
+function swapImage_aboutgray(myImage, state) {
+        if (state == 'close_sign') {
+          myImage.src = "/graphics/top/wsn/minus_gray.jpg";
+        }
+        else {
+            myImage.src = "/graphics/top/wsn/plus_gray.jpg";
+    }
+
+	}
